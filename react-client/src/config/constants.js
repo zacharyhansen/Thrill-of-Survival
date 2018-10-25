@@ -1,0 +1,7 @@
+export const PLAYER_WIDTH = 65;
+export const PLAYER_HEIGHT = 70;
+export const BOARD_WIDTH_TILES = 20;
+export const BOARD_HEIGHT_TILES = 10;
+export const BOARD_HEIGHT = PLAYER_HEIGHT * BOARD_HEIGHT_TILES;
+export const BOARD_WIDTH = PLAYER_WIDTH * BOARD_WIDTH_TILES;
+

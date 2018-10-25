@@ -1,0 +1,80 @@
+
+.tile {
+  display: inline-flex;
+  vertical-align: bottom;
+  background-image: url('http://pixelartmaker.com/art/db00a560c2afd56.png');
+}
+
+.grass {
+  background-image: url('http://pixelartmaker.com/art/db00a560c2afd56.png');
+  background-size: contain;
+}
+
+.tombstone {
+  vertical-align: bottom;
+  background-size: contain;
+  content: url('http://pixelartmaker.com/art/52c306f0214cb6d.png');
+}
+
+.pumpkin {
+  background-size: contain;
+  content: url('https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/a/ab/Pumpkin_pixel.png/revision/latest?cb=20161106041942');
+}
+
+.scarecrow {
+  vertical-align: bottom;
+  background-size: contain;
+  content: url('https://melbournechapter.net/images/game-transparent-pixel-art-3.png');
+}
+
+.gameOver {
+  content: url('http://pixelartmaker.com/art/0f529138e7cffe2.png');
+  position: absolute;
+  top: 200px;
+  left: 462px;
+}
+
+.results {
+  display: inline-block;
+  text-indent: 100px;
+  position: relative;
+  background-image: url('http://pixelartmaker.com/art/92a0da31cd356c7.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-family: creepster;
+  color: white;
+  margin-right: 20px;
+}
+
+.restart {
+  text-indent: 100px;
+  position: relative;
+  background-image: url('http://pixelartmaker.com/art/bbd609bb4cbee37.png');
+  background-size: 6%;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-family: creepster;
+  position: relative;
+  color: black;
+}
+
+.hsImage {
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  top: 8px;
+  content: url(http://pixelartmaker.com/art/642ee58998e0c8b.png);
+  background-repeat: no-repeat;
+}
+
+.highScore {
+  display: inline-block;
+  font-size: 30px;
+  font-family: creepster;
+  color: white;
+}
+
+body {
+  background-color: rgb(0, 3, 2);
+}
