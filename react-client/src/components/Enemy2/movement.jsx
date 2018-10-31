@@ -74,21 +74,6 @@ const doEnemyMovement = (enemy) => {
 
   }
 
-  // RANDOM MOVE
-  // const handleKeyDown = () => {
-  //   const num = Math.floor(Math.random() * Math.floor(4))
-  //   switch (num) {
-  //     case 0:
-  //       return attemptMove('west');
-  //     case 1:
-  //       return attemptMove('north');
-  //     case 2:
-  //       return attemptMove('east');
-  //     case 3:
-  //       return attemptMove('south');
-  //   }
-  // }
-
   // FOLLOW MOVE
   const handleKeyDown = () => {
     if (store.getState().board.gameOver) clearInterval(enemyInterval);
