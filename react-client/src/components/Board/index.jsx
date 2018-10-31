@@ -8,7 +8,6 @@ const Board = (props) => {
     <div style={{
       width: `${BOARD_WIDTH}px`,
       height: `${BOARD_HEIGHT}px`,
-      // backgroundColor: '#1F722F',
       margin: '10px auto',
     }}>
       {
